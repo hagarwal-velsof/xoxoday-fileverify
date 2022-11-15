@@ -1,0 +1,19 @@
+{
+    "name": "xoxoday/fileverify",
+    "description": "This package is used to verify file status.",
+    "autoload": {
+        "psr-4": {
+            "Xoxoday\\Fileverify\\": "src/"
+        }
+    },
+    "require": {
+        "xoxoday/fileupload": "1.0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xoxoday\\Fileverify\\FileVerifyServiceProvider"
+            ]
+        }
+    }
+}
