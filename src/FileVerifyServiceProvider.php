@@ -5,6 +5,7 @@ namespace Xoxoday\Fileverify;
 use Illuminate\Support\ServiceProvider;
 
 class FileVerifyServiceProvider extends ServiceProvider
+
 {
     /**
      * Register services.
